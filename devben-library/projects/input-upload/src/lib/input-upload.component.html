@@ -1,0 +1,58 @@
+<article id="main-content" role="main">  
+    <section class="container">
+       <div class="row">
+          <div class="col-md-4">
+            <header>
+              <h1>Bootstrap file input style demo</h1>
+            </header>
+            <p class="lead">Css demo : Styling file inputs for bootstrap with a nice fallback for older browsers. <br /> A simple javascript is added to change labels when a file is selected.</p>
+          </div>
+      <div class="col-md-8">
+        <p>&nbsp;</p>
+        <h3 class="text-info">Example 1 : simple file input</h3>
+        
+        <!--file input example -->
+        <span class="control-fileupload">
+          <label for="file">Choose a file :</label>
+          <input type="file" id="file">
+        </span>
+        <!--./file input example -->
+        <p>&nbsp;</p>
+        <hr>
+        <h3 class="text-info">Exemple 2 : large upload iframe</h3>
+        <p><strong>Note:</strong> This is a CSS Demo only, no JavaScript nor Server side Code is provided to handle file preview or upload status.</p>
+        <!--image file upoad sample-->
+        <div class="box">
+          <!-- fileuploader view component -->
+          <form action="#" method="post" class="text-center">
+            <div class="margin-bottom-20"> 
+              <img class="thumbnail box-center margin-top-20" alt="No image" src="http://www.washaweb.com/tutoriaux/fileupload/imgs/image-temp-220.png">
+            </div>
+            <p>
+              <button type="submit" class="btn btn-sm" name="delete"><i class="icon-remove"></i> Remove</button>
+              <button type="submit" class="btn btn-primary btn-sm" id="save" name="save"><i class="icon-ok icon-white"></i> Save</button>
+            </p>
+          </form>
+          <!-- ./fileuploader view component -->
+          <div class="row">
+            <div class="col-sm-10">
+              <span class="control-fileupload">
+                <label for="file1" class="text-left">Please choose a file on your computer.</label>
+                <input type="file" id="file1">
+              </span>
+            </div>
+            <div class="col-sm-2">  
+              <button type="button" class="btn btn-primary btn-block">
+                <i class="icon-upload icon-white"></i> Upload
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h4>How to use it :</h4>
+        <!--./image file upoad sample-->
+       
+      </div>
+    </div>
+  </section>
+</article>
