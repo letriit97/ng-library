@@ -8,14 +8,6 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "paths": {
-      "component-library": [
-        "dist/component-library"
-      ],
-      "input-upload": [
-        "dist/input-upload"
-      ]
-    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,

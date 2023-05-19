@@ -1,0 +1,28 @@
+{
+  "name": "@developer-ben/component-library",
+  "version": "1.0.2",
+  "description": "Surport component Angular 14",
+  "author": {
+    "name": "lmtri1908",
+    "email": "lmtri1908@gmail.com",
+    "url": "https://www.npmjs.com/~lmtri1908"
+  },
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/letriit97/ng-library/tree/main/devben-library"
+  },
+  "keywords": [
+    "component-library",
+    "@developer-ben",
+    "@developer-ben/component-library",
+    "component library"
+  ],
+
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
